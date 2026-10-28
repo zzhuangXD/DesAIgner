@@ -1,0 +1,18 @@
+{
+  "id": "L013",
+  "repo": "vercel-labs/agent-skills",
+  "preferred_skill": "web-design-guidelines",
+  "source_path": "skills/web-design-guidelines/SKILL.md",
+  "note": "审查型Skill，须区分模型自行生成与此Skill实际承担审查的角色，不能声称它是生成型Skill。",
+  "research_commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+  "actual_skill": "web-design-guidelines",
+  "actual_source_path": "skills/web-design-guidelines/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [
+    "web-interface-guidelines.md"
+  ],
+  "prompt_sha256": "b1eabcade5b2b178c3803ca995819b62b8a887136885497c4ae59a84a2ca60e7",
+  "started_at": "2026-10-28T15:22:56Z"
+}

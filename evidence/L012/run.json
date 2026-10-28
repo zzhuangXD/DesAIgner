@@ -1,0 +1,16 @@
+{
+  "id": "L012",
+  "repo": "anthropics/skills",
+  "preferred_skill": "frontend-design",
+  "source_path": "skills/frontend-design/SKILL.md",
+  "note": "不要同时用canvas-design、algorithmic-art、theme-factory。",
+  "research_commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+  "actual_skill": "frontend-design",
+  "actual_source_path": "skills/frontend-design/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [],
+  "prompt_sha256": "25994380dddbcb3b3869ca2e731f427e2ce4074d81b5318a5e75849b7ab688b1",
+  "started_at": "2026-10-28T15:17:47Z"
+}

@@ -1,0 +1,129 @@
+{
+  "browser": "156.0.8078.49",
+  "mode": "headless Chrome, clean ephemeral browser context, file:// standalone pages",
+  "checked_at": "2026-10-28T15:23:02.911Z",
+  "results": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 虚构数字艺术展",
+        "heading": "霓虹\n残响\nNEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": []
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "义体之梦：身体之外的回声"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "交互装置义体之梦GHOST IN CHROME",
+        "activation": true
+      },
+      "screenshot": "desktop.png"
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 虚构数字艺术展",
+        "heading": "霓虹残响\nNEONAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "DIV",
+            "class": "hero-art",
+            "width": 446.140625
+          },
+          {
+            "tag": "svg",
+            "class": "",
+            "width": 446.140625
+          },
+          {
+            "tag": "use",
+            "class": "",
+            "width": 387.43792724609375
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "义体之梦：身体之外的回声"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "交互装置义体之梦GHOST IN CHROME",
+        "activation": true
+      },
+      "screenshot": "mobile.png"
+    },
+    {
+      "label": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 虚构数字艺术展",
+        "heading": "霓虹残响\nNEONAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "DIV",
+            "class": "hero-art",
+            "width": 366.0625
+          },
+          {
+            "tag": "svg",
+            "class": "",
+            "width": 366.0625
+          },
+          {
+            "tag": "use",
+            "class": "",
+            "width": 317.8963623046875
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "义体之梦：身体之外的回声"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "交互装置义体之梦GHOST IN CHROME",
+        "activation": true
+      },
+      "screenshot": "small-mobile.png"
+    }
+  ]
+}

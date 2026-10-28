@@ -1,0 +1,245 @@
+{
+  "samples": [
+    {
+      "id": "L007",
+      "actual_skill": "ui-ux-pro-max",
+      "actual_source_path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L007"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "bc4399ccd1c5764b27eca278d9f0ee30cc9837bae7aa41d557817991690002ef",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L008",
+      "actual_skill": "design-taste-frontend",
+      "actual_source_path": "skills/taste-skill/SKILL.md",
+      "commit": "12af471f627f866411b4bd785b19646d3672784c",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L008"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "a0eed3c1151866cfd8cb78c93cce747b3f8b59ce41d025eaf0e31b6840703271",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L009",
+      "actual_skill": "better-layout",
+      "actual_source_path": "skills/better-layout/SKILL.md",
+      "commit": "592aedc44d7d5b3e29740984252902f3e5402a1c",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L009"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "f95f7510518ffec6b72b2c6b62917043494561f859107977966bdac20837b70a",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L010",
+      "actual_skill": "emil-design-eng",
+      "actual_source_path": "skills/emil-design-eng/SKILL.md",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L010"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "5891093f2475fee1dd44a0558df904e005adde8033ca109e108d7020a19c4481",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L011",
+      "actual_skill": "interface-design",
+      "actual_source_path": ".claude/skills/interface-design/SKILL.md",
+      "commit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L011"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "9c453030a744ca4b078cabf8ac75c743ff495a7c923f6f5aba9924016d22245a",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L012",
+      "actual_skill": "frontend-design",
+      "actual_source_path": "skills/frontend-design/SKILL.md",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L012"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "d9ae1eeb4036eb877c3ab1e2007cb376a9be0f0512a78001b53a3de4cda8da88",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L013",
+      "actual_skill": "web-design-guidelines",
+      "actual_source_path": "skills/web-design-guidelines/SKILL.md",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L013"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "d11f286b06731462778179c8b93c2f7a463251f35e772e7ac6ae406320125e74",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L014",
+      "actual_skill": "baseline-ui",
+      "actual_source_path": "skills/baseline-ui/SKILL.md",
+      "commit": "59193a75432e5f41c6980f53b9e6a7bd56919947",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L014"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "fd12279fea82689a95b189962e03c6b5c159e05f29471b6a6a5fdef69d231059",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    },
+    {
+      "id": "L015",
+      "actual_skill": "taste-design",
+      "actual_source_path": "plugins/stitch-utilities/skills/taste-design/SKILL.md",
+      "commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "matches_recorded_commit": true,
+      "model_requested": "gpt-6.1-sol",
+      "model_reported": "gpt-6.1-sol",
+      "response_status": "completed",
+      "shared_system_sha256": "bdb3b770e343d55d3740d856bedab7c19831aaa0565fe1b9da729561ab9724e3",
+      "full_skill_texts_present": [
+        "L015"
+      ],
+      "exactly_own_skill": true,
+      "contains_common_brief": true,
+      "previous_response_id_present": false,
+      "model_tools_provided": false,
+      "prompt_sha_matches": true,
+      "page_sha256": "481a4fb68584f5bd492c12361ffc0cd77ce8698a4e2956ddbff04f2cdeb355eb",
+      "browser_passed": true,
+      "viewports": [
+        1440,
+        390,
+        320
+      ]
+    }
+  ],
+  "same_model": true,
+  "same_system_instructions": true,
+  "all_single_skill": true,
+  "all_brief_and_prompt_hashes_valid": true,
+  "all_browser_passed": true,
+  "unique_final_page_hashes": 9,
+  "scope": "Initial generation requests audited. Same-skill revisions and screenshot reviews are separately logged; controller fixes are saved as diffs. Hash uniqueness and independent inputs do not imply visual dissimilarity."
+}

@@ -1,0 +1,260 @@
+{
+  "browser": "156.0.8078.49",
+  "mode": "headless Chrome, clean ephemeral browser context, file:// standalone pages",
+  "checked_at": "2026-10-28T14:57:34.429Z",
+  "results": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 虚构数字艺术展",
+        "heading": "霓虹残响\nNEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "path",
+            "class": "",
+            "width": 819.6383666992188
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 850.4654541015625
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 881.2926025390625
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 912.1197509765625
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 942.9468994140625
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 973.7739868164062
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 531.2531127929688
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 548.6210327148438
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "雨巷协议"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "×",
+        "activation": true
+      },
+      "screenshot": "desktop.png"
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 虚构数字艺术展",
+        "heading": "霓虹残响\nNEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "path",
+            "class": "",
+            "width": 490.90911865234375
+          },
+          {
+            "tag": "circle",
+            "class": "",
+            "width": 368.18182373046875
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 30.70049285888672
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 24.564125061035156
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.8409042358398438
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.8409042358398438
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 4.909088134765625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 4.909088134765625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 4.909088134765625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 4.909088134765625
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "雨巷协议"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "×",
+        "activation": true
+      },
+      "screenshot": "mobile.png"
+    },
+    {
+      "label": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 虚构数字艺术展",
+        "heading": "霓虹残响\nNEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "path",
+            "class": "",
+            "width": 490.90911865234375
+          },
+          {
+            "tag": "circle",
+            "class": "",
+            "width": 368.1817932128906
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 30.700485229492188
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 24.564125061035156
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 4.909088134765625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 4.909088134765625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 1.840911865234375
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "雨巷协议"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "×",
+        "activation": true
+      },
+      "screenshot": "small-mobile.png"
+    }
+  ]
+}

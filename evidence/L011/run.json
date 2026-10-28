@@ -1,0 +1,16 @@
+{
+  "id": "L011",
+  "repo": "Dammyjay93/interface-design",
+  "preferred_skill": "interface-design",
+  "source_path": ".claude/skills/interface-design/SKILL.md",
+  "note": "该技能明确不适用营销网页；先判断虚构艺术展互动页面是否在范围，不强行违背范围生成并称成功。",
+  "research_commit": "2f9be3206855bcb2d1d0af262c8bae25cba6658d",
+  "actual_skill": "interface-design",
+  "actual_source_path": ".claude/skills/interface-design/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [],
+  "prompt_sha256": "25f56449c8179e85b4b56858ff2f84804449e76cfdfb8d6cad0eb940659a9839",
+  "started_at": "2026-10-28T15:11:44Z"
+}

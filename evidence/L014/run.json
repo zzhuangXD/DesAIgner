@@ -1,0 +1,16 @@
+{
+  "id": "L014",
+  "repo": "ibelick/ui-skills",
+  "preferred_skill": "baseline-ui",
+  "source_path": "skills/baseline-ui/SKILL.md",
+  "note": "不要再调用improve-ui或外部设计Skill；用户明确要求赛博朋克艺术风格。",
+  "research_commit": "59193a75432e5f41c6980f53b9e6a7bd56919947",
+  "actual_skill": "baseline-ui",
+  "actual_source_path": "skills/baseline-ui/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [],
+  "prompt_sha256": "981e1253943319cbc308164149937e2c1d1f69876baac34d7d659d5268c68220",
+  "started_at": "2026-10-28T15:29:54Z"
+}

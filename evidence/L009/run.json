@@ -1,0 +1,19 @@
+{
+  "id": "L009",
+  "repo": "jakubkrehel/skills",
+  "preferred_skill": "better-layout",
+  "source_path": "skills/better-layout/SKILL.md",
+  "note": "只读此一个Skill及普通参考文件，不调用better-interface等聚合技能。可据当前源代码选择另一个无需第二Skill的生成型技能，但须说明。",
+  "research_commit": "592aedc44d7d5b3e29740984252902f3e5402a1c",
+  "actual_skill": "better-layout",
+  "actual_source_path": "skills/better-layout/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [
+    "skills/better-layout/grouping-and-alignment.md",
+    "skills/better-layout/spacing-and-adaptivity.md"
+  ],
+  "prompt_sha256": "ee0f24d43cefebf1885f34cb17bcd16f8acac10e386d1c23583e230fbfd874ff",
+  "started_at": "2026-10-28T15:03:08Z"
+}

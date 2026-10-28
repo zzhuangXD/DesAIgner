@@ -1,0 +1,15 @@
+{
+  "id": "L010",
+  "repo": "emilkowalski/skills",
+  "preferred_skill": "emil-design-eng",
+  "source_path": "skills/emil-design-eng/SKILL.md",
+  "research_commit": "2d228630ba1446365f614a108cb8252f1feda202",
+  "actual_skill": "emil-design-eng",
+  "actual_source_path": "skills/emil-design-eng/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [],
+  "prompt_sha256": "c6044e6f180df4f68fd8d9bef7d85cda46a8e0b28aa71d830f79eb5bcc739a1f",
+  "started_at": "2026-10-28T15:06:44Z"
+}

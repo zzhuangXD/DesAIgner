@@ -1,0 +1,16 @@
+{
+  "id": "L015",
+  "repo": "google-labs-code/stitch-skills",
+  "preferred_skill": "stitch::generate-design",
+  "source_path": "plugins/stitch-design/skills/generate-design/SKILL.md",
+  "note": "检查Stitch连接、账号与设计系统前提；若必须调用另一个Skill才能完成，记录与单Skill要求冲突，不假造已使用。",
+  "research_commit": "0337446dadde6f8c94210444e2aa9d546126480f",
+  "actual_skill": "taste-design",
+  "actual_source_path": "plugins/stitch-utilities/skills/taste-design/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [],
+  "prompt_sha256": "fbf5215ec66859c093dc748dc027d2af721b63a40c1507cc9b0377e7e1cd7e11",
+  "started_at": "2026-10-28T15:33:06Z"
+}

@@ -1,0 +1,97 @@
+{
+  "browser": "156.0.8078.49",
+  "mode": "headless Chrome, clean ephemeral browser context, file:// standalone pages",
+  "checked_at": "2026-10-28T15:11:51.435Z",
+  "results": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "images": [],
+        "title": "霓虹残响 — NEON AFTERIMAGE",
+        "heading": "NEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": []
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "雨巷协议"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "×",
+        "activation": true
+      },
+      "screenshot": "desktop.png"
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "images": [],
+        "title": "霓虹残响 — NEON AFTERIMAGE",
+        "heading": "NEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": []
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "雨巷协议"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "×",
+        "activation": true
+      },
+      "screenshot": "mobile.png"
+    },
+    {
+      "label": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "images": [],
+        "title": "霓虹残响 — NEON AFTERIMAGE",
+        "heading": "NEON\nAFTERIMAGE",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": []
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "雨巷协议"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "×",
+        "activation": true
+      },
+      "screenshot": "small-mobile.png"
+    }
+  ]
+}

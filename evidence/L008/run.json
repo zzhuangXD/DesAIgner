@@ -1,0 +1,28 @@
+{
+  "id": "L008",
+  "repo": "Leonxlnx/taste-skill",
+  "preferred_skill": "design-taste-frontend",
+  "source_path": "skills/taste-skill/SKILL.md",
+  "research_commit": "12af471f627f866411b4bd785b19646d3672784c",
+  "actual_skill": "design-taste-frontend",
+  "actual_source_path": "skills/taste-skill/SKILL.md",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "context": "fresh stateless Responses request; no previous_response_id, no other samples, no tools",
+  "references": [
+    "actual-direction-sheet.txt",
+    "verified-local-asset-credits.json",
+    "controller-workflow.txt",
+    "references/motion.md",
+    "references/imagery.md",
+    "references/colour.md",
+    "references/critique.md",
+    "references/research.md",
+    "references/copy.md",
+    "references/tells.md",
+    "references/type.md",
+    "references/layout.md"
+  ],
+  "prompt_sha256": "b3fa87fa4f2ce36dc049f581a27f1cb20c1478c018d8eb2002ea1555938bab2d",
+  "started_at": "2026-10-28T15:09:04Z"
+}

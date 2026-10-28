@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171719">
+<meta name="description" content="霓虹残响 / NEON AFTERIMAGE：关于记忆、机器与光的虚构数字艺术展。">
+<title>霓虹残响 NEON AFTERIMAGE — 虚构数字艺术展</title>
+<style>
+:root{--bg:#171719;--surface:#222225;--paper:#e8e8e8;--muted:#a3a3a8;--line:#414145;--accent:#d4df79;--ease:cubic-bezier(.22,.75,.25,1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--bg);color:var(--paper);font-family:'Satoshi','Avenir Next','Century Gothic','PingFang SC','Microsoft YaHei',sans-serif;-webkit-font-smoothing:antialiased}button,a{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}button{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:6px}::selection{background:var(--accent);color:var(--bg)}svg{display:block;max-width:100%}p,h1,h2,h3,figure{margin:0}p{line-height:1.85}button{color:inherit}a,button{transition:background .25s var(--ease),color .25s var(--ease),transform .25s var(--ease)}.wrap{max-width:1440px;margin-inline:auto;padding-inline:clamp(22px,4.5vw,72px)}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px;letter-spacing:.09em}.muted{color:var(--muted)}.skip{position:fixed;top:10px;left:10px;z-index:20;background:var(--accent);color:var(--bg);padding:12px;transform:translateY(-160%)}.skip:focus{transform:translateY(0)}.header{min-height:100px;display:grid;grid-template-columns:1fr auto;align-items:center;border-bottom:1px solid var(--line);gap:24px}.brand{display:flex;align-items:center;gap:13px;width:fit-content;min-height:44px}.brand-mark{width:36px;height:36px}.brand-name{font-size:15px;letter-spacing:.16em;font-weight:650}.brand-sub{font-size:9px;letter-spacing:.12em;display:block;margin-top:4px;color:var(--muted)}.nav{display:flex;gap:34px;align-items:center}.nav a{font-size:13px;min-height:44px;display:flex;align-items:center;gap:8px}.nav a:hover{color:var(--accent)}.nav small{font-size:9px;color:var(--muted)}.menu-toggle{display:none;background:none;border:1px solid var(--line);min-height:44px;padding:0 13px}.hero{display:grid;grid-template-columns:.94fr 1.06fr;gap:clamp(26px,5vw,76px);padding-block:46px 30px;align-items:center}.eyebrow{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:11px;letter-spacing:.13em}.signal{width:6px;height:6px;background:var(--accent);border-radius:50%;animation:breathe 3s ease-in-out infinite}.hero-copy{padding:18px 0 30px}.hero h1{margin:36px 0 25px;font-size:clamp(70px,7.4vw,112px);line-height:1.08;font-weight:650;letter-spacing:-.075em}.hero h1>span{display:block}.hero h1 .second{margin-left:1.06em}.english{font-size:clamp(30px,3.45vw,51px);font-weight:500;letter-spacing:-.065em;line-height:1.05;margin-top:26px}.english-top{display:flex;align-items:center;gap:16px}.inline-art{width:86px;height:30px;border-radius:20px;flex:none;background:var(--surface)}.english-bottom{display:block;margin-top:4px}.tagline{font-size:17px;font-weight:400;letter-spacing:.06em;margin-top:28px}.primary{display:inline-flex;align-items:center;justify-content:space-between;gap:55px;background:var(--accent);color:var(--bg);padding:15px 21px;min-height:54px;margin-top:30px;font-size:13px;font-weight:650}.primary:hover{background:var(--paper);transform:translateY(-2px)}.primary:active{transform:translateY(1px)}.primary svg{width:20px;height:20px}.hero-art{min-width:0}.sculpture{width:100%;background:#1b1b1e;border:1px solid #343437;aspect-ratio:620/650}.hero-art figcaption{display:flex;justify-content:space-between;gap:20px;margin-top:15px;color:var(--muted);font-size:10px;letter-spacing:.08em}.float-art{transform-origin:center;animation:float 9s ease-in-out infinite}.rain-drift{animation:rain 7s ease-in-out infinite}.hero-foot{padding-block:25px 28px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;border-top:1px solid var(--line);color:var(--muted)}.hero-foot .location{font-size:12px;letter-spacing:.06em}.hero-foot .date{color:var(--paper);font-size:20px;letter-spacing:-.04em}.intro{background:var(--paper);color:var(--bg);padding-block:clamp(55px,8vw,112px)}.intro-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:60px}.section-label{display:flex;gap:18px;align-items:baseline;font-size:12px;letter-spacing:.09em}.section-label .num{font-family:ui-monospace,monospace;font-size:11px;opacity:.55}.intro-label{display:grid;align-content:space-between;gap:45px}.intro-emblem{width:95px;height:95px}.intro h2{font-size:clamp(27px,3.05vw,43px);line-height:1.55;letter-spacing:-.04em;font-weight:500;margin-bottom:25px}.intro p{max-width:39em;font-size:16px;color:#555559}.intro-note{display:flex;gap:20px;margin-top:32px;padding-top:22px;border-top:1px solid #bdbdbf;color:#606064;font-size:11px;letter-spacing:.08em}.works{padding-block:clamp(60px,8vw,110px)}.section-heading{display:grid;grid-template-columns:1fr auto;gap:25px;align-items:end;margin-bottom:38px}.section-heading h2{font-size:clamp(29px,3.5vw,44px);font-weight:500;letter-spacing:-.05em;margin-top:16px}.section-heading>p{font-size:12px;color:var(--muted);max-width:23em}.gallery{display:grid;grid-template-columns:1.13fr .87fr;gap:clamp(30px,5vw,75px);align-items:start}.work-stage{min-width:0}.work-image{aspect-ratio:1.16;background:var(--surface);overflow:hidden;border:1px solid #363639}.work-image svg{width:100%;height:100%}.work-image.enter svg{animation:appear .65s var(--ease) both}.work-caption{padding-top:17px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}.work-caption h3{font-size:11px;line-height:1.6;letter-spacing:.035em;font-weight:400}.work-caption span{font-size:10px;color:var(--muted)}.work-list{border-top:1px solid var(--line)}.work-row{border-bottom:1px solid var(--line)}.work-button{width:100%;display:grid;grid-template-columns:30px 1fr 24px;align-items:start;gap:12px;background:none;text-align:left;border:0;padding:26px 0;min-height:100px}.work-number{font-size:11px;color:var(--muted);padding-top:7px}.work-name{font-size:23px;line-height:1.4;font-weight:500;letter-spacing:-.02em}.work-name small{display:block;font-size:10px;letter-spacing:.065em;color:var(--muted);margin-top:7px;font-weight:400}.work-plus{font-size:24px;font-weight:300;line-height:1.4;text-align:right}.work-button:hover .work-name,.work-button[aria-expanded=true] .work-name{color:var(--accent)}.work-detail{padding:0 25px 26px 42px;animation:appear .4s var(--ease) both}.work-detail p{font-size:14px;color:#b9b9be;max-width:32em}.work-credit{display:flex;gap:15px;margin-top:20px;color:var(--muted);font-size:11px}.work-credit span+span{border-left:1px solid var(--line);padding-left:15px}[hidden]{display:none!important}.gallery-note{font-size:11px;color:var(--muted);margin-top:26px;line-height:1.8}.visit{padding-block:55px 65px;border-top:1px solid var(--line)}.visit-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:60px}.visit h2{font-size:clamp(27px,3.4vw,44px);font-weight:500;letter-spacing:-.04em;margin-top:18px}.visit-data{display:grid;grid-template-columns:1fr 1fr;gap:30px}.visit-data dt{color:var(--muted);font-size:11px;letter-spacing:.08em;margin-bottom:16px}.visit-data dd{margin:0;font-size:17px;line-height:1.8}.visit-data .wide{grid-column:1/-1;border-top:1px solid var(--line);padding-top:24px}.visit-data .wide dd{font-size:13px;color:var(--muted);max-width:48em}.fiction-tag{display:inline-block;padding:5px 9px;border:1px solid #737747;color:var(--accent);font-size:10px;letter-spacing:.05em;margin-bottom:12px}.footer{border-top:1px solid var(--line);padding-block:26px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}.footer-word{font-size:clamp(16px,2.6vw,35px);letter-spacing:-.05em;color:#aaaab0}.footer p{font-size:10px;color:var(--muted);text-align:right;letter-spacing:.04em}.footer a{display:inline-block;min-height:44px;line-height:44px}.footer a:hover{color:var(--accent)}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}@keyframes breathe{0%,100%{opacity:1}50%{opacity:.35}}@keyframes rain{0%,100%{transform:translateY(-5px);opacity:.55}50%{transform:translateY(8px);opacity:.9}}@keyframes appear{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:1500px){.hero{padding-block:55px 40px}.hero h1{font-size:112px}}
+@media(max-width:1000px){.nav{gap:20px}.hero{gap:26px}.hero h1{font-size:clamp(65px,8.4vw,90px)}.hero h1 .second{margin-left:.5em}.hero-copy{padding-top:0}.eyebrow{font-size:9px}.english{font-size:35px}.tagline{font-size:15px}.intro-grid,.visit-grid{grid-template-columns:.55fr 1.45fr;gap:35px}.gallery{gap:30px}.work-name{font-size:21px}.work-button{padding-block:22px}.work-detail{padding-left:0}.hero-art figcaption{font-size:8px}}
+@media(max-width:767px){.header{min-height:80px;gap:12px}.brand-name{font-size:14px}.brand-mark{width:30px;height:30px}.menu-toggle{display:block;font-size:12px}.nav{display:none;grid-column:1/-1;padding:0 0 20px;border-top:1px solid var(--line);gap:0}.nav.open{display:grid}.nav a{padding-top:8px;justify-content:space-between}.hero{grid-template-columns:1fr;padding-top:32px;gap:25px}.hero-copy{padding-bottom:5px}.hero h1{font-size:clamp(72px,17vw,112px);margin-block:29px 22px}.hero h1>span{display:inline-block}.hero h1 .second{margin-left:.08em}.english{font-size:clamp(36px,8.6vw,64px);margin-top:22px}.english-top{display:block}.inline-art{display:none}.mobile-fragment{display:block!important;width:90px;height:24px;margin-top:17px;border-radius:20px}.tagline{font-size:16px;margin-top:24px}.primary{margin-top:24px;min-width:190px}.sculpture{max-height:580px}.hero-art figcaption{font-size:9px}.hero-foot{grid-template-columns:1fr;padding-block:23px;gap:8px}.hero-foot .date{font-size:21px}.intro-grid,.visit-grid,.gallery,.section-heading,.visit-data{grid-template-columns:1fr;gap:32px}.intro-emblem{display:none}.intro-label{gap:0}.intro h2{font-size:29px}.intro p{font-size:15px}.intro-note{font-size:10px;gap:12px;flex-wrap:wrap}.section-heading{gap:15px;margin-bottom:28px}.section-heading>p{font-size:12px}.gallery{gap:28px}.work-image{aspect-ratio:1.05}.work-button{min-height:90px;padding-block:23px}.work-detail{padding-left:42px}.visit-data{gap:25px}.visit-data .wide{grid-column:auto}.visit-data dt{margin-bottom:9px}.visit-grid{gap:28px}.footer{grid-template-columns:1fr;gap:12px}.footer p{text-align:left}.footer-word{font-size:25px}.footer a{line-height:1.5;min-height:44px;display:flex;align-items:center}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳至展览内容</a>
+<div class="wrap" id="top">
+<header class="header">
+<a class="brand" href="#top" aria-label="霓虹残响，首页"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 28V12L20 3l16 9v16l-16 9Z" fill="none" stroke="#d4df79"/><path d="m10 24 10 6 10-6V16L20 10l-10 6Z" fill="none" stroke="#a3a3a8"/><path d="M20 3v34M4 12l32 16M4 28l32-16" stroke="#d4df79" stroke-width=".6"/></svg><span class="brand-name">霓虹残响<span class="brand-sub">NEON AFTERIMAGE</span></span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">目录 +</button>
+<nav class="nav" id="main-nav" aria-label="主要导航"><a href="#about">展览叙事 <small>ABOUT</small></a><a href="#works">作品档案 <small>WORKS</small></a><a href="#visit">展览信息 <small>INFO</small></a></nav>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="exhibition-title">
+<div class="hero-copy">
+<div class="eyebrow"><span class="signal" aria-hidden="true"></span>虚构数字艺术展 · A FICTIONAL EXHIBITION</div>
+<h1 id="exhibition-title"><span>霓虹</span><span class="second">残响</span></h1>
+<div class="english" lang="en"><span class="english-top">NEON <svg class="inline-art" viewBox="0 0 100 34" aria-hidden="true"><rect width="100" height="34" fill="#303034"/><g fill="none" stroke="#d4df79" stroke-width="1"><ellipse cx="50" cy="17" rx="43" ry="12"/><ellipse cx="50" cy="17" rx="32" ry="12"/><ellipse cx="50" cy="17" rx="19" ry="12"/><path d="M0 17h100"/></g></svg></span><span class="english-bottom">AFTERIMAGE</span></div>
+<svg class="mobile-fragment" style="display:none" viewBox="0 0 100 28" aria-hidden="true"><rect width="100" height="28" fill="#303034"/><g fill="none" stroke="#d4df79"><ellipse cx="50" cy="14" rx="43" ry="10"/><ellipse cx="50" cy="14" rx="26" ry="10"/><path d="M0 14h100"/></g></svg>
+<p class="tagline">在城市忘记你之前，<br>留下最后一道光。</p>
+<a class="primary" href="#works">进入作品档案 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+</div>
+<figure class="hero-art">
+<svg class="sculpture" viewBox="0 0 620 650" role="img" aria-labelledby="portrait-title portrait-desc">
+<title id="portrait-title">记忆的机械切片</title><desc id="portrait-desc">雨中的建筑网格包围着一尊银色侧面人像。人像被细密的水平扫描线切分，淡黄绿色轨迹环绕其间。</desc>
+<defs>
+<linearGradient id="ground" x2="0" y2="1"><stop stop-color="#252528"/><stop offset="1" stop-color="#19191c"/></linearGradient>
+<linearGradient id="metal"><stop stop-color="#313136"/><stop offset=".22" stop-color="#8c8c92"/><stop offset=".42" stop-color="#e0e0e1"/><stop offset=".55" stop-color="#6b6b72"/><stop offset=".74" stop-color="#b6b6ba"/><stop offset="1" stop-color="#414148"/></linearGradient>
+<linearGradient id="face"><stop stop-color="#44444a"/><stop offset=".55" stop-color="#d2d2d4"/><stop offset="1" stop-color="#77777e"/></linearGradient>
+<linearGradient id="neck" x2="1" y2=".2"><stop stop-color="#333338"/><stop offset=".44" stop-color="#bdbdc2"/><stop offset=".58" stop-color="#53535a"/><stop offset="1" stop-color="#242428"/></linearGradient>
+<path id="head" d="M281 105C213 105 168 155 167 222c-1 45 24 77 25 110 1 32-19 74-39 101-19 25-31 55-35 92h331c-15-35-43-55-79-70-25-11-32-30-33-62 27 1 47-11 49-38l3-25 24-11c7-4 6-11 1-17l-29-39c2-20 6-43-1-66-10-55-48-92-103-92Z"/>
+<clipPath id="headclip"><use href="#head"/></clipPath>
+<pattern id="scan" width="8" height="7" patternUnits="userSpaceOnUse"><path d="M0 6.5h8" stroke="#171719" stroke-width="1.1"/></pattern>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0v44" stroke="#3b3b40" stroke-width=".5" fill="none"/></pattern>
+</defs>
+<path fill="url(#ground)" d="M0 0h620v650H0z"/><path fill="url(#grid)" d="M0 0h620v650H0z"/>
+<g fill="#1c1c20" stroke="#47474c" stroke-width=".6"><path d="M0 80 100 15v540L0 610Z"/><path d="M25 119 80 84v411l-55 39Z"/><path d="m620 20-87 52v475l87 72Z"/><path d="m598 112-44 24v342l44 34Z"/><path d="M109 0h25v650h-25ZM489 0h20v650h-20Z"/></g>
+<g id="architecture" fill="none" stroke="#59595f" stroke-width=".65" opacity=".6"></g>
+<g fill="none" stroke="#68686d" stroke-width=".7"><ellipse cx="310" cy="571" rx="198" ry="36"/><ellipse cx="310" cy="571" rx="157" ry="24"/><path d="M132 650 253 539M488 650 367 539M310 650V539M0 571h620"/></g>
+<g class="rain-drift" fill="none" stroke="#b8b8bc" stroke-width=".65" opacity=".6"><path d="M149 25v55m38-58v34m253-22v73M473 132v45M145 300v39m326 58v62M94 300v28m439-250v39M47 570v40M563 329v47M230 30v28M452 493v44"/></g>
+<g class="float-art">
+<ellipse cx="300" cy="294" rx="213" ry="105" transform="rotate(-34 300 294)" fill="none" stroke="#d4df79" stroke-width="1" opacity=".65" stroke-dasharray="170 24 325 210"/>
+<use href="#head" fill="url(#metal)" stroke="#bcbcc1" stroke-width=".7"/>
+<g clip-path="url(#headclip)">
+<path d="M103 455c87-61 139-108 158-178 20-74 4-122-29-178L107 83Z" fill="#343439" opacity=".65"/>
+<path d="M223 109c59-3 101 34 105 81 4 46-25 79-25 119 0 49 20 76 36 85l52-16 34-58-38-65 1-72-48-68Z" fill="url(#face)"/>
+<path d="M192 326c19 38 20 71-18 127-13 20-17 48-22 82h260c-39-52-118-61-108-146-31-12-50-35-66-69Z" fill="url(#neck)"/>
+<g fill="none" stroke="#e1e1e3" stroke-width=".8" opacity=".5"><path d="M200 172c21-50 79-62 122-25M185 204c28-65 103-71 146-29M183 228c32-67 108-66 151-30M189 250c40-60 109-58 145-30M200 273c38-49 91-43 127-29M210 297c34-37 70-35 102-31M214 323c29-29 54-31 86-30M214 346c22-16 46-21 86-15M210 369c29-19 56-15 93-8M201 394c41-23 81-10 108 4M188 423c45-28 92-9 124 15M173 454c61-27 100-2 154 10M162 480c67-24 135-4 181 13M156 505c81-17 150-4 219 12"/></g>
+<path d="M343 229q22-12 40 5l-5 8-32-5Z" fill="#28282d"/><path d="m350 226 31 3" fill="none" stroke="#e8e8e8" stroke-width="2"/>
+<path d="M389 330q-14 0-23-6m19 24-21-1" stroke="#29292e" stroke-width="3" fill="none"/>
+<ellipse cx="284" cy="273" rx="19" ry="29" fill="#5c5c64" stroke="#c5c5c9"/><ellipse cx="284" cy="273" rx="11" ry="19" fill="#303035"/><path d="M281 260q17-5 8 17l-7 8" fill="none" stroke="#c1c1c5"/>
+<path d="M0 0h620v650H0z" fill="url(#scan)"/>
+<path d="M143 423h266v5H143zM161 246h252v3H161zM134 492h313v3H134z" fill="#171719"/>
+<path d="M172 427h65M294 250h50M280 495h114" stroke="#d4df79" stroke-width="2"/>
+</g>
+<path d="M138 462c22 39 84 44 160 20" fill="none" stroke="#d4df79" stroke-width="1.1"/>
+<path d="M413 196c20 11 33 28 38 49" fill="none" stroke="#d4df79"/>
+</g>
+<g stroke="#a3a3a8" stroke-width=".8" fill="none"><path d="M22 36V22h14m548 0h14v14M22 614v14h14m548 0h14v-14M305 47h10m-5-5v10"/></g>
+<g fill="#d4df79"><rect x="52" y="185" width="3" height="93"/><rect x="564" y="440" width="3" height="49"/><circle cx="310" cy="571" r="2"/></g>
+</svg>
+<figcaption><span>主视觉研究：记忆的机械切片</span><span class="mono">MEMORY / MACHINE / LIGHT</span></figcaption>
+</figure>
+</section>
+<div class="hero-foot"><span class="location">第七区地下档案馆 · 虚构展览概念</span><span class="date mono">2099.11.08 — 11.30</span></div>
+</main>
+</div>
+<section class="intro" id="about" aria-labelledby="about-title">
+<div class="wrap intro-grid">
+<div class="intro-label"><div class="section-label"><span class="num">01</span>展览叙事 / THE NARRATIVE</div><svg class="intro-emblem" viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#77777c" stroke-width=".7"><circle cx="50" cy="50" r="43"/><ellipse cx="50" cy="50" rx="22" ry="43"/><ellipse cx="50" cy="50" rx="43" ry="16"/><path d="M7 50h86M50 7v86M20 20l60 60M20 80l60-60"/></g><circle cx="50" cy="50" r="6" fill="#171719"/></svg></div>
+<div><h2 id="about-title">当记忆可以复制，<br>什么仍然属于你？</h2><p>2099 年，记忆可以被复制，夜色成为最后的私人领地。三位虚构创作者通过影像、声音与交互装置，寻找人与机器之间尚未被命名的感受。</p><p style="margin-top:17px">雨水里的倒影、金属之下的梦、无人接听的频率——这些不完整的信号，是一座城市留给人的残响。</p><div class="intro-note"><span>记忆不是备份。</span><span>光，是我们曾经在场的证据。</span></div></div>
+</div>
+</section>
+<section class="works wrap" id="works" aria-labelledby="works-title">
+<div class="section-heading"><div><div class="section-label"><span class="num muted">02</span>作品档案 / SELECTED WORKS</div><h2 id="works-title">三种媒介，同一道残响。</h2></div><p>选择一件作品，进入它的记忆现场。<br>作品与创作者均为虚构设定。</p></div>
+<div class="gallery">
+<figure class="work-stage"><div class="work-image" id="work-image"></div><figcaption class="work-caption"><h3 id="work-title" aria-live="polite">雨巷协议 / RAIN ALLEY PROTOCOL</h3><span class="mono" id="work-medium">影像</span></figcaption></figure>
+<div>
+<div class="work-list">
+<article class="work-row"><h3><button id="work-1" class="work-button" aria-expanded="true" aria-controls="detail-1" data-work="0"><span class="work-number mono">01</span><span class="work-name">雨巷协议<small lang="en">RAIN ALLEY PROTOCOL</small></span><span class="work-plus" aria-hidden="true">−</span></button></h3><div class="work-detail" id="detail-1"><p>雨落下时，城市开始回放。巷道中的每一块反光表面，都短暂储存着一个陌生人的记忆。你看见的是自己的过去，还是被植入的他人的夜晚？</p><div class="work-credit"><span>影像</span><span>林序 · 虚构创作者</span></div></div></article>
+<article class="work-row"><h3><button id="work-2" class="work-button" aria-expanded="false" aria-controls="detail-2" data-work="1"><span class="work-number mono">02</span><span class="work-name">义体之梦<small lang="en">GHOST IN CHROME</small></span><span class="work-plus" aria-hidden="true">+</span></button></h3><div class="work-detail" id="detail-2" hidden><p>金属会梦见自己的体温吗？一具尚未被唤醒的义体，在反射中拼合人的轮廓。靠近、凝视，机器与人的边界成为一道无法固定的光。</p><div class="work-credit"><span>交互装置</span><span>沈未 · 虚构创作者</span></div></div></article>
+<article class="work-row"><h3><button id="work-3" class="work-button" aria-expanded="false" aria-controls="detail-3" data-work="2"><span class="work-number mono">03</span><span class="work-name">失真电台<small lang="en">PIRATE FREQUENCY</small></span><span class="work-plus" aria-hidden="true">+</span></button></h3><div class="work-detail" id="detail-3" hidden><p>没有署名的声音穿过地下管线。断裂的独白、远处的雨与机器的呼吸，在同一个频率里彼此覆盖。这是一封没有收件人的声音来信。</p><div class="work-credit"><span>声音艺术</span><span>余频 · 虚构创作者</span></div></div></article>
+</div>
+<p class="gallery-note">档案预览为原创生成视觉，并非实体展品记录。<br>声音作品以声波图像呈现，本页不自动播放音频。</p>
+</div>
+</div>
+</section>
+<section class="visit" id="visit" aria-labelledby="visit-title"><div class="wrap visit-grid"><div><div class="section-label"><span class="num muted">03</span>展览信息 / EXHIBITION</div><h2 id="visit-title">在夜色的另一端。</h2></div><dl class="visit-data"><div><dt>展览时间 / DATE</dt><dd class="mono" style="font-size:18px;letter-spacing:-.03em">2099.11.08–11.30</dd></div><div><dt>概念地点 / LOCATION</dt><dd>第七区地下档案馆</dd></div><div class="wide"><dt><span class="fiction-tag">FICTIONAL ART PROJECT</span></dt><dd>本网页为虚构数字艺术展概念。展览、创作者、作品及地点均为艺术设定，不对应现实开放场馆，不提供售票、预约或实际入场服务。</dd></div></dl></div></section>
+<footer class="wrap footer"><a href="#top" class="footer-word">NEON AFTERIMAGE<span style="color:var(--accent);margin-left:8px">.</span></a><p>霓虹残响 · 关于记忆、机器与光的虚构叙事<br>愿每一道光，都有人记得。</p></footer>
+<script>
+const ns='http://www.w3.org/2000/svg';
+const architecture=document.getElementById('architecture');
+let buildingLines='';
+for(let y=130;y<535;y+=22){buildingLines+=`<path d="M25 ${y}l55-35M554 ${y}l44 34"/>`;}
+for(let x=38;x<80;x+=12){buildingLines+=`<path d="M${x} ${126-(x-25)*.63}v405"/>`;}
+architecture.innerHTML=buildingLines;
+const artStart=(label,defs='')=>`<svg viewBox="0 0 640 550" role="img" aria-label="${label}" xmlns="http://www.w3.org/2000/svg"><defs>${defs}</defs><path d="M0 0h640v550H0z" fill="#202023"/>`;
+function alley(){
+ let s=artStart('雨巷协议：雨线穿过狭长城市巷道，银灰建筑在积水中反射。',`<linearGradient id="alley-floor" x2="0" y2="1"><stop stop-color="#6b6b70"/><stop offset="1" stop-color="#242428"/></linearGradient><linearGradient id="alley-sky" x2="0" y2="1"><stop stop-color="#55555a"/><stop offset="1" stop-color="#b6b6b9"/></linearGradient>`);
+ s+='<path d="M230 0h180L370 365H270Z" fill="url(#alley-sky)"/><path d="m0 550 274-205h92l274 205Z" fill="url(#alley-floor)"/>';
+ const buildings=[{x:0,w:101,h:460},{x:92,w:89,h:389},{x:172,w:66,h:332},{x:230,w:42,h:277}];
+ buildings.forEach((b,i)=>{let top=365-b.h;s+=`<path d="M${b.x} 0h${b.w}v${365+i*3}l-${b.w} ${130-i*24}Z" fill="${['#29292d','#333337','#3e3e43','#515156'][i]}" stroke="#8b8b91" stroke-width=".7"/>`;for(let y=top+30;y<375;y+=25){s+=`<path d="M${b.x+10} ${y}h${b.w-20}" stroke="#919197" stroke-width="1" opacity=".6"/>`;}for(let x=b.x+15;x<b.x+b.w;x+=22){s+=`<path d="M${x} 0v${380}" stroke="#171719" stroke-width="5"/>`;}});
+ s+='<path d="M640 0H460v395l180 110Z" fill="#303034" stroke="#7d7d83"/><path d="M460 0h-61v368l61 27Z" fill="#414147" stroke="#828288"/>';
+ for(let y=22;y<440;y+=28){s+=`<path d="M475 ${y}h165M409 ${y}h38" stroke="#85858b" stroke-width="2" opacity=".6"/>`;}
+ for(let x=490;x<640;x+=31){s+=`<path d="M${x} 0v470" stroke="#1c1c20" stroke-width="9"/>`;}
+ s+='<path d="M365 0h8v355h-8Z" fill="#d4df79"/><path d="M355 361h27l54 189h-67Z" fill="#d4df79" opacity=".3"/><path d="M215 110h15v115h-15Z" fill="#d4df79"/><path d="M485 165h22v87h-22Z" fill="#b6b6ba"/><path d="M302 326h38v36h-38Z" fill="#222225"/><path d="M314 328h12v35h-12Z" fill="#dedee0"/>';
+ for(let i=0;i<90;i++){let x=(i*83+17)%640,y=(i*47+13)%550;s+=`<path d="M${x} ${y}v${8+i%16}" stroke="#d2d2d5" stroke-width=".65" opacity="${.18+(i%4)*.1}"/>`;}
+ for(let y=392;y<550;y+=12){let offset=(y*7)%55;s+=`<path d="M${180-offset} ${y}h${280+offset}" stroke="#aaaab0" stroke-width=".6" opacity=".4"/><path d="M${355-offset/2} ${y+3}h${24+offset}" stroke="#d4df79" opacity=".7"/>`;}
+ s+='<path d="M0 450 277 363M640 450 366 363M0 525 277 363M640 525 366 363" fill="none" stroke="#b7b7bc" stroke-width=".7" opacity=".4"/>';
+ return s+'</svg>';
+}
+function chrome(){
+ let s=artStart('义体之梦：银色机械人像在一组椭圆金属切片之间显现。',`<linearGradient id="chrome-band"><stop stop-color="#333338"/><stop offset=".2" stop-color="#a8a8af"/><stop offset=".44" stop-color="#ececee"/><stop offset=".52" stop-color="#5b5b64"/><stop offset=".8" stop-color="#b5b5bd"/><stop offset="1" stop-color="#303036"/></linearGradient><clipPath id="bust-mask"><path d="M313 66c-67 0-111 45-111 108 0 45 14 79 36 113l-7 63c-52 20-101 55-112 135h407c-10-80-63-116-115-136l-8-63c24-38 37-73 33-116-5-64-52-104-123-104Z"/></clipPath>`);
+ for(let x=30;x<640;x+=40){s+=`<path d="M${x} 0v550" stroke="#45454a" stroke-width=".5"/>`;}
+ s+='<ellipse cx="320" cy="487" rx="210" ry="25" fill="none" stroke="#77777f" stroke-width=".7"/><g clip-path="url(#bust-mask)"><path d="M100 50h450v450H100z" fill="url(#chrome-band)"/>';
+ for(let i=0;i<48;i++){let y=70+i*9,shift=Math.sin(i*.21)*13;s+=`<path d="M135 ${y}Q${320+shift} ${y-37} 505 ${y}" fill="none" stroke="${i%3===0?'#e0e0e4':'#29292f'}" stroke-width="${i%3===0?1.2:3}"/>`;}
+ s+='<path d="M256 203q29-15 46 0M344 203q26-15 44 0" stroke="#25252b" stroke-width="10" fill="none"/><path d="m324 205-12 55 22 4" stroke="#d8d8dd" stroke-width="3" fill="none"/><path d="M292 290q32 10 61-1" stroke="#303036" stroke-width="4" fill="none"/><path d="M246 342q72 38 152-1M212 388q108 45 216-1" stroke="#d4df79" stroke-width="2" fill="none"/></g>';
+ s+='<g fill="none" stroke="#a0a0a8" stroke-width=".7"><ellipse cx="321" cy="259" rx="221" ry="66" transform="rotate(-36 321 259)"/><ellipse cx="321" cy="259" rx="225" ry="78" transform="rotate(36 321 259)"/></g><path d="M321 24v27m0 455v25M52 274h26m486 0h26" stroke="#d4df79"/><circle cx="321" cy="274" r="204" fill="none" stroke="#d4df79" stroke-width=".8" stroke-dasharray="150 600"/>';
+ return s+'</svg>';
+}
+function frequency(){
+ let s=artStart('失真电台：层叠的声波环与水平干扰纹理，呈现无法被完整接收的声音。');
+ for(let x=0;x<640;x+=32){s+=`<path d="M${x} 0v550" stroke="#404045" stroke-width=".5"/>`;}
+ for(let y=20;y<550;y+=27){s+=`<path d="M0 ${y}h640" stroke="#404045" stroke-width=".5"/>`;}
+ for(let r=40;r<217;r+=6){let path='';for(let j=0;j<=160;j++){let a=j/160*Math.PI*2,rr=r+Math.sin(a*9+r*.07)*5+Math.cos(a*15)*3;path+=(j?'L':'M')+(320+Math.cos(a)*rr).toFixed(2)+' '+(275+Math.sin(a)*rr*.9).toFixed(2);}s+=`<path d="${path}Z" fill="none" stroke="${r%18===4?'#d4df79':'#b8b8bf'}" stroke-width=".8" opacity="${.45+(r%24)/50}"/>`;}
+ s+='<path d="M0 250h640v48H0z" fill="#202023"/>';
+ let wave='';for(let x=0;x<=640;x+=2){let envelope=Math.exp(-Math.pow((x-320)/180,2)),y=274+Math.sin(x*.39)*Math.sin(x*.067)*envelope*66;wave+=(x?'L':'M')+x+' '+y.toFixed(2);}s+=`<path d="${wave}" fill="none" stroke="#d4df79" stroke-width="1.2"/>`;
+ s+='<circle cx="320" cy="275" r="12" fill="#202023" stroke="#d4df79"/><circle cx="320" cy="275" r="3" fill="#d4df79"/><path d="M24 28h20m-10-10v20m562 484h20m-10-10v20" stroke="#a3a3a8"/>';
+ return s+'</svg>';
+}
+const works=[{title:'雨巷协议 / RAIN ALLEY PROTOCOL',medium:'影像',art:alley},{title:'义体之梦 / GHOST IN CHROME',medium:'交互装置',art:chrome},{title:'失真电台 / PIRATE FREQUENCY',medium:'声音艺术',art:frequency}];
+const image=document.getElementById('work-image');
+let selected=0;
+function selectWork(index){
+ selected=index;
+ document.querySelectorAll('.work-button').forEach((button,i)=>{let active=i===index;button.setAttribute('aria-expanded',String(active));button.querySelector('.work-plus').textContent=active?'−':'+';document.getElementById('detail-'+(i+1)).hidden=!active;});
+ image.classList.remove('enter');image.innerHTML=works[index].art();requestAnimationFrame(()=>image.classList.add('enter'));
+ document.getElementById('work-title').textContent=works[index].title;
+ document.getElementById('work-medium').textContent=works[index].medium;
+}
+document.querySelectorAll('.work-button').forEach((button,i)=>{button.addEventListener('click',()=>{if(selected!==i)selectWork(i);});button.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();const next=(i+(e.key==='ArrowDown'?1:2))%3;document.getElementById('work-'+(next+1)).focus();selectWork(next);}});});
+image.innerHTML=alley();
+const menu=document.querySelector('.menu-toggle'),nav=document.getElementById('main-nav');
+function closeMenu(){menu.setAttribute('aria-expanded','false');menu.textContent='目录 +';nav.classList.remove('open');}
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'收起 −':'目录 +';nav.classList.toggle('open',open);});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+nav.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();menu.focus();}});
+</script>
+</body>
+</html>

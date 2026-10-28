@@ -1,0 +1,219 @@
+{
+  "browser": "156.0.8078.49",
+  "mode": "headless Chrome, clean ephemeral browser context, file:// standalone pages",
+  "checked_at": "2026-10-28T15:20:30.734Z",
+  "results": [
+    {
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 展览档案",
+        "heading": "霓虹残响",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": []
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "义体之梦"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "MEMORY CORETOUCH / 0.84DO MACHINES REMEMBER WARMTH?02 / GIC义体之梦交互装置↗",
+        "activation": true
+      },
+      "screenshot": "desktop.png"
+    },
+    {
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 展览档案",
+        "heading": "霓虹残响",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 485.4375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 23.171092987060547
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 29.23842430114746
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 28.751445770263672
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 39.3486328125
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 34.548858642578125
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 27.191650390625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 18.357574462890625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 35.98187255859375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 79.82749938964844
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 79.82749938964844
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 3.236248016357422
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "义体之梦"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "MEMORY CORETOUCH / 0.84DO MACHINES REMEMBER WARMTH?02 / GIC义体之梦交互装置↗",
+        "activation": true
+      },
+      "screenshot": "mobile.png"
+    },
+    {
+      "label": "small-mobile",
+      "width": 320,
+      "height": 740,
+      "errors": [],
+      "failed": [],
+      "layout": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "images": [],
+        "title": "霓虹残响 / NEON AFTERIMAGE — 展览档案",
+        "heading": "霓虹残响",
+        "reduce": true,
+        "runningAnimations": 0,
+        "overflows": [
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 390
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 18.615631103515625
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 23.49011993408203
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 23.09888458251953
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 31.612640380859375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 27.75653076171875
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 21.845703125
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 14.74847412109375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 28.907806396484375
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 64.13333129882812
+          },
+          {
+            "tag": "path",
+            "class": "",
+            "width": 64.13333129882812
+          },
+          {
+            "tag": "rect",
+            "class": "",
+            "width": 2.5999984741210938
+          }
+        ]
+      },
+      "missing_content": [],
+      "interaction": {
+        "ok": true,
+        "text": "义体之梦"
+      },
+      "keyboard": {
+        "tag": "BUTTON",
+        "outline": "solid",
+        "activeText": "MEMORY CORETOUCH / 0.84DO MACHINES REMEMBER WARMTH?02 / GIC义体之梦交互装置↗",
+        "activation": true
+      },
+      "screenshot": "small-mobile.png"
+    }
+  ]
+}
