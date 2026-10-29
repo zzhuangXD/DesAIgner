@@ -1,10 +1,21 @@
 # DesAIgner
 
-设计类 AI Agent Skills 的单 Skill 网页对照 Gallery。
+设计类 AI Agent Skills 的网页实验室，按两组并列合集组织。
 
-**[打开在线 Demo](https://zzhuangxd.github.io/DesAIgner/)** · [实验方法与限制](experiment-report.md) · [统一内容简报](cyberpunk-brief.md)
+**[打开项目总览](https://zzhuangxd.github.io/DesAIgner/)**
 
-新增 **[L013–L015 独立能力案例](https://zzhuangxd.github.io/DesAIgner/capabilities/)**：报名页审查修复、素材审核工作台、源码设计系统提取。按各自适用场景制作，页面内附说明、提示词及证据；不作同题排名，详见 [本轮方法](capabilities/README.md)。
+| 并列合集 | 入口 | 内容 |
+| --- | --- | --- |
+| 赛博朋克单 Skill 对照 | [cyberpunk/](https://zzhuangxd.github.io/DesAIgner/cyberpunk/) | 同一简报下的 9 个独立网页 |
+| 独立能力场景案例 | [capabilities/](https://zzhuangxd.github.io/DesAIgner/capabilities/) | 报名页审查修复、素材审核工作台、源码设计系统提取 |
+
+根目录 `index.html` 只承担父级总览。两组合集分别提供返回总览和访问另一合集的导航。样例及证据文件保持原地址，旧入口 `cyberpunk-skill-gallery.html` 跳转到 `cyberpunk/`。
+
+独立能力案例按各自适用场景制作，页面内附说明、提示词及证据；不作同题排名，详见 [案例方法](capabilities/README.md)。
+
+## 赛博朋克同题对照
+
+[实验方法与限制](experiment-report.md) · [统一内容简报](cyberpunk-brief.md)
 
 同一虚构赛博朋克艺术展 **霓虹残响 / NEON AFTERIMAGE**，9 个候选仓库各选 1 个具体 Skill，分别生成可操作的网页。所有样例使用 `gpt-6.1-sol / high`；各次初始生成请求独立，不读取其他样例。
 
@@ -22,7 +33,7 @@
 
 ## 如何浏览
 
-在线打开 Gallery，按编号或 Skill 名称搜索，然后进入各个独立网页。每张卡片提供真实桌面/手机截图、浏览器检查、运行摘要和固定提交的上游 Skill 链接。
+在线打开项目总览，选择任一合集。赛博朋克对照支持按编号或 Skill 名称搜索；每张卡片提供真实桌面/手机截图、浏览器检查、运行摘要和固定提交的上游 Skill 链接。独立能力合集提供三个各有提示词与说明的场景案例。
 
 也可下载仓库后直接打开 `index.html`；没有服务器端、在线字体或远程图片依赖。L011 声景需要点击播放以满足浏览器音频策略。
 
@@ -37,7 +48,7 @@
 
 ## 发布
 
-GitHub Pages 从 `main` 分支根目录发布；`.nojekyll` 保留原始静态文件。提交网页更新到 `main` 后，GitHub 自动重新部署。`cyberpunk-skill-gallery.html` 与首页为同一 Gallery 的兼容入口。
+GitHub Pages 从 `main` 分支根目录发布；`.nojekyll` 保留原始静态文件。提交网页更新到 `main` 后，GitHub 自动重新部署。父级首页及两个子级入口分别为 `/DesAIgner/`、`/DesAIgner/cyberpunk/` 与 `/DesAIgner/capabilities/`。
 
 公开仓库只保留交付网页及必要的证据摘要，不包含本机认证、账号配置、执行日志、原始请求响应、上游完整仓库、构建环境或本地离线整包。
 

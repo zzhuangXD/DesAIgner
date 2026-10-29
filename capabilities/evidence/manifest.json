@@ -22,22 +22,22 @@
     }
   ],
   "files": {
-    "index.html": "a8dc5bf408826c39f4e65fa4d983d41aeceba6e88101b3ea12a5d44810509640",
+    "index.html": "9dad06c9edd8d00e582208b3504f794a1bac370e2ffb3d644ca09b43bebf0099",
     "case.css": "5c770a56d40cd81e921690cea695d06574225aacba9c8869c7a69ead30cd8252",
-    "README.md": "1184341ff1c1518e67da68222dae85b30e171eee4ec83eb9d48f5549c45026a1",
+    "README.md": "2f752eef5a26cf97d6d3775d95666646df22516bbf625f0c6b5644ac47c2aa3f",
     "evidence/web-interface-guidelines.md": "d93848dde33658e783912503d7a14cb7ae931b59045a3a5b8f9a453f4bbe7866",
-    "L013/index.html": "30c810b855718e2eea985b06cf340cd19eaa71f5f53cec6a3eeca4070c02f122",
+    "L013/index.html": "3320c5df04a34373f5a2194e86d7731b511d63f70395e6470c20df2a651926c1",
     "L013/L013.js": "818c26b0db36396fb636af098106094e6c505f876444209576b224c56d84af6f",
     "L013/input-before.html": "e438fbd2bf8a77f017ecfd051e71486c50c6a7eb420cc06679c0621f9a4f72a1",
     "L013/review.md": "47e6dad60b61b5e66d0f3415601df3e3f9af3f8205c844d572fffe6fe75bdcfd",
-    "L014/workbench.jsx": "1d23fe91902a6a62711f0a30555a4a047bc0bf60ee9dde1c2304bff64c9345ca",
+    "L014/workbench.jsx": "8e5dfabd0e44c14d94e1c52e61904ef94ec4144f3ed2f13165b689af6b499e30",
     "L014/index.html": "2742024a554a429182e16183c10cb5ee3def704b8de924b6e9e6594876da97c9",
     "L014/input.css": "8474a2c2c9947d7a59bd8b50e61f167b98d9e7f8175998ea32a162f16c0e11c1",
     "L014/review.md": "56d6b585da867e909d6a4150088aca7dacc825e70fd07d03da82748496dd17ee",
     "L014/workbench.js.LEGAL.txt": "7dff61d0cd5b7cff2403db6cf5c586b1218c9e663784caeda7fd06916c997d46",
-    "L014/workbench.js": "7445e589008037a8e627f379be9c5cce1ef4b3b701a3be3e32f5a2e9a96a7899",
+    "L014/workbench.js": "ea149c770005281408948309c6045bcc75e1bcc4fde5fc28d7a4f8446525d530",
     "L014/workbench.css": "80fb3695f13d072538ef85cb8920f7c967745e1a3eb697245df6ec9b6218538f",
-    "L015/index.html": "bd3895db896e65392e5a96ec3daaacbebb09a080c2ec646c6a6e56da1327e66b",
+    "L015/index.html": "c7ece5d35e9ec3f4c1b9ad0f61f7fa3eb608d352565b5eddac08d59deaf3f005",
     "L015/design-data.js": "b0487d7420908581be462346e8b69ae2d471ba68262ab52e85b4b442397894a1",
     "L015/design-data.json": "50e95f21c05ef8a17798d581e4efab15e8bdcda5ab8e2cc4cb285484e17bcbcf",
     "L015/DESIGN.md": "714bdd9d67e2f430096ae650a548f3d4e5b73bfb7ec342dfbacfe6b91de61e85",
@@ -51,5 +51,6 @@
     "prompts/L014.txt": "a8212f8c5bfc665339709580c63a33c8fa2612a0b8f2234a71f418e588dedf49",
     "prompts/L015.txt": "11707ddbdd9d7f4e00125a7b9ddeb313b99892efb089d8cf9943bc2ea239cc23",
     "prompts/L013.txt": "4ef4c4c7714e75d4e43ecc6c01ef61499a3f8719756d20cc1c82304943bd2295"
-  }
+  },
+  "navigation_update": "2026-10-29: root is parent overview; cyberpunk/ and capabilities/ are sibling collections. Existing sample URLs retained."
 }

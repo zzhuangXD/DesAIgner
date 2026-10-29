@@ -1,6 +1,6 @@
 # DesAIgner 实验记录
 
-本实验使用同一份 `cyberpunk-brief.md`，对 L007–L015 九个候选仓库各选择一个具体 Skill。Impeccable、Hallmark 未参与。各样例的最终状态、来源和入口见 [9 项清单](comparison.md) 与 [总览页](cyberpunk-skill-gallery.html)。
+本实验使用同一份 `cyberpunk-brief.md`，对 L007–L015 九个候选仓库各选择一个具体 Skill。Impeccable、Hallmark 未参与。各样例的最终状态、来源和入口见 [9 项清单](comparison.md) 与 [赛博朋克对照合集](cyberpunk/)。[DesAIgner 项目总览](./) 另提供与此合集并列的 [独立能力案例](capabilities/)。
 
 ## 执行条件与隔离
 
