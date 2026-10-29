@@ -1,0 +1,31 @@
+@import url('./tokens.css');
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:var(--type-body)/1.7 var(--font-body)}
+h1,h2,h3,p{margin-top:0}
+h1,h2,h3{text-wrap:balance;font-family:var(--font-display)}
+h1{font-size:var(--type-display);line-height:1.25;font-weight:400}
+h2{font-size:var(--type-heading);line-height:1.4;font-weight:400}
+h3{font-size:var(--type-subheading);line-height:1.4;font-weight:400}
+p{line-height:1.7;text-wrap:pretty}
+.bookshop{max-width:var(--max-width);margin:auto;padding:var(--space-6) var(--space-8) var(--space-12)}
+.bookshop-nav{display:flex;justify-content:space-between;gap:var(--space-4);border-bottom:1px solid var(--line);padding-bottom:var(--space-4);margin-bottom:var(--space-12);font-size:var(--type-caption)}
+.bookshop-nav a{color:var(--ink);text-underline-offset:4px}
+.bookshop-nav a[aria-current=page]{color:var(--accent);text-decoration-thickness:2px}
+.bookshop-hero{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:var(--space-8)}
+.bookshop-kicker{font:var(--type-caption)/1.5 var(--font-mono);color:var(--muted)}
+.bookshop-copy{max-width:30em;color:var(--muted)}
+.bookshop-book{aspect-ratio:3/4;background:var(--sage);border:1px solid var(--line);border-left:8px solid var(--accent);border-radius:0 var(--radius-card) var(--radius-card) 0;padding:var(--space-6);max-width:260px;margin:auto}
+.bookshop-book h2{margin-top:var(--space-8);font-size:var(--type-heading)}
+.bookshop-book p{font-size:var(--type-caption)}
+.bookshop-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:var(--space-3) var(--space-6);border:1px solid var(--accent);border-radius:var(--radius-button);background:var(--accent);color:var(--on-accent);font:600 14px/1.4 var(--font-body);text-decoration:none;cursor:pointer}
+.bookshop-button:hover{background:var(--ink);border-color:var(--ink)}
+:is(a,button,input):focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.bookshop-shelf{margin-top:var(--space-12);padding-top:var(--space-6);border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:var(--space-6)}
+.bookshop-card{background:var(--surface);padding:var(--space-6);border:1px solid var(--line);border-radius:var(--radius-card)}
+.bookshop-card p{color:var(--muted);font-size:14px;margin-bottom:0}
+.bookshop-card h3{margin-bottom:var(--space-2)}
+.bookshop-input{min-height:44px;padding:var(--space-3);border:1px solid var(--line);border-radius:var(--radius-button);background:var(--surface);color:var(--ink);font:var(--type-body)/1.5 var(--font-body)}
+.bookshop-input[aria-invalid=true]{border-color:var(--error)}
+.bookshop-success{color:var(--success)}
+.bookshop-footer{margin-top:var(--space-8);font-size:var(--type-caption);color:#776d63}
+@media(max-width:640px){.bookshop{padding:var(--space-6) var(--space-4)}.bookshop-hero,.bookshop-shelf{grid-template-columns:1fr}.bookshop-nav{margin-bottom:var(--space-8)}h1{font-size:36px}.bookshop-book{width:200px}}

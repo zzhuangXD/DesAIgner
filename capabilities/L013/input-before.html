@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>审查输入 · 周末工作坊</title>
+<style>
+body{font-family:system-ui;background:#fff;padding:24px;color:#172a44}
+input{display:block;box-sizing:border-box;width:100%;padding:12px;margin:12px 0;border:1px solid #bbb}
+input:focus{outline:none}
+.submit{background:#172a44;color:white;padding:12px;text-align:center;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>周末工作坊</h1>
+<p>用于审查练习的缺陷输入；请勿填写真实个人信息。</p>
+<input placeholder="你的名字">
+<input placeholder="电子邮箱">
+<div class="submit" onclick="document.getElementById('message').textContent='报名成功'">提交</div>
+<p id="message"></p>
+</body>
+</html>

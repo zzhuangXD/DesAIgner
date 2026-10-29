@@ -1,0 +1,326 @@
+{
+  "base": "http://127.0.0.1:8766/DesAIgner/capabilities/",
+  "checkedAt": "2026-10-29T09:24:26.961Z",
+  "browser": "Google Chrome / Playwright",
+  "scope": "12 viewport/case combinations; interaction, keyboard, resources, overflow, source tokens. No screen-reader or complete WCAG audit.",
+  "results": [
+    {
+      "id": "hub",
+      "width": 1440,
+      "checks": [
+        "3 case links",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 2,
+      "passed": true
+    },
+    {
+      "id": "L013",
+      "width": 1440,
+      "checks": [
+        "empty validation focuses first field",
+        "inline errors",
+        "invalid email focused",
+        "native radio keyboard behavior",
+        "live success with selected session",
+        "no invalid markers after valid submission",
+        "preserved before fixture",
+        "zoom allowed",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 4,
+      "passed": true
+    },
+    {
+      "id": "L014",
+      "width": 1440,
+      "checks": [
+        "asset name stays readable at narrow widths",
+        "empty next action",
+        "empty clear restores all",
+        "4 initial pending",
+        "Radix dialog visible",
+        "Escape closes and restores focus",
+        "approval updates pending",
+        "Radix keyboard selects approved",
+        "approval updates approved",
+        "reversible approval",
+        "before teaching mock visible",
+        "no animation",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 3,
+      "passed": true
+    },
+    {
+      "id": "L015",
+      "width": 1440,
+      "checks": [
+        "10 sourced colors",
+        "token inspector updates",
+        "related source component highlighted",
+        "all colors agree with source variables",
+        "7 source spacing steps",
+        "type specimen visible",
+        "reused event toggles",
+        "reused card actually shares source tokens",
+        "drift disclosed",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 1440,
+        "scroll": 1440,
+        "body": 1440
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 9,
+      "passed": true
+    },
+    {
+      "id": "hub",
+      "width": 390,
+      "checks": [
+        "3 case links",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 2,
+      "passed": true
+    },
+    {
+      "id": "L013",
+      "width": 390,
+      "checks": [
+        "empty validation focuses first field",
+        "inline errors",
+        "invalid email focused",
+        "native radio keyboard behavior",
+        "live success with selected session",
+        "no invalid markers after valid submission",
+        "preserved before fixture",
+        "zoom allowed",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 4,
+      "passed": true
+    },
+    {
+      "id": "L014",
+      "width": 390,
+      "checks": [
+        "asset name stays readable at narrow widths",
+        "empty next action",
+        "empty clear restores all",
+        "4 initial pending",
+        "Radix dialog visible",
+        "Escape closes and restores focus",
+        "approval updates pending",
+        "Radix keyboard selects approved",
+        "approval updates approved",
+        "reversible approval",
+        "before teaching mock visible",
+        "no animation",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 3,
+      "passed": true
+    },
+    {
+      "id": "L015",
+      "width": 390,
+      "checks": [
+        "10 sourced colors",
+        "token inspector updates",
+        "related source component highlighted",
+        "all colors agree with source variables",
+        "7 source spacing steps",
+        "type specimen visible",
+        "reused event toggles",
+        "reused card actually shares source tokens",
+        "drift disclosed",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 9,
+      "passed": true
+    },
+    {
+      "id": "hub",
+      "width": 320,
+      "checks": [
+        "3 case links",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 2,
+      "passed": true
+    },
+    {
+      "id": "L013",
+      "width": 320,
+      "checks": [
+        "empty validation focuses first field",
+        "inline errors",
+        "invalid email focused",
+        "native radio keyboard behavior",
+        "live success with selected session",
+        "no invalid markers after valid submission",
+        "preserved before fixture",
+        "zoom allowed",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 4,
+      "passed": true
+    },
+    {
+      "id": "L014",
+      "width": 320,
+      "checks": [
+        "asset name stays readable at narrow widths",
+        "empty next action",
+        "empty clear restores all",
+        "4 initial pending",
+        "Radix dialog visible",
+        "Escape closes and restores focus",
+        "approval updates pending",
+        "Radix keyboard selects approved",
+        "approval updates approved",
+        "reversible approval",
+        "before teaching mock visible",
+        "no animation",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 3,
+      "passed": true
+    },
+    {
+      "id": "L015",
+      "width": 320,
+      "checks": [
+        "10 sourced colors",
+        "token inspector updates",
+        "related source component highlighted",
+        "all colors agree with source variables",
+        "7 source spacing steps",
+        "type specimen visible",
+        "reused event toggles",
+        "reused card actually shares source tokens",
+        "drift disclosed",
+        "no horizontal overflow",
+        "no uncaught errors",
+        "no failed resource responses",
+        "no external or mutation requests"
+      ],
+      "geometry": {
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320
+      },
+      "errors": [],
+      "failed": [],
+      "requests": 9,
+      "passed": true
+    }
+  ]
+}

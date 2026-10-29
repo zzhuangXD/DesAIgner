@@ -1,0 +1,232 @@
+window.DESIGN_DATA = {
+  "name": "纸间 ZHIJIAN",
+  "stack": "Plain HTML / CSS; no framework",
+  "colors": [
+    {
+      "name": "paper",
+      "value": "#f6f1e7",
+      "label": "暖纸白",
+      "role": "页面底色",
+      "source": "fixture/tokens.css:3"
+    },
+    {
+      "name": "surface",
+      "value": "#fffcf6",
+      "label": "淡奶白",
+      "role": "卡片与输入表面",
+      "source": "fixture/tokens.css:4"
+    },
+    {
+      "name": "ink",
+      "value": "#282b27",
+      "label": "印刷墨",
+      "role": "标题、正文与按钮悬停",
+      "source": "fixture/tokens.css:5"
+    },
+    {
+      "name": "muted",
+      "value": "#756b61",
+      "label": "灰褐",
+      "role": "说明、标签与辅助文字",
+      "source": "fixture/tokens.css:6"
+    },
+    {
+      "name": "line",
+      "value": "#d6cdbf",
+      "label": "细砂线",
+      "role": "边框与分隔",
+      "source": "fixture/tokens.css:7"
+    },
+    {
+      "name": "accent",
+      "value": "#9d452f",
+      "label": "砖红",
+      "role": "主行动、焦点和书脊",
+      "source": "fixture/tokens.css:8"
+    },
+    {
+      "name": "on-accent",
+      "value": "#fffaf2",
+      "label": "奶纸文字",
+      "role": "主要按钮上的文字",
+      "source": "fixture/tokens.css:9"
+    },
+    {
+      "name": "sage",
+      "value": "#dce2d4",
+      "label": "干苔绿",
+      "role": "书封装饰色块",
+      "source": "fixture/tokens.css:10"
+    },
+    {
+      "name": "success",
+      "value": "#3f6047",
+      "label": "叶绿",
+      "role": "源码定义的成功文字，原首页未使用",
+      "source": "fixture/tokens.css:11"
+    },
+    {
+      "name": "error",
+      "value": "#a12d2b",
+      "label": "告警红",
+      "role": "源码定义的错误边框，原首页未使用",
+      "source": "fixture/tokens.css:12"
+    }
+  ],
+  "tokens": [
+    {
+      "name": "paper",
+      "value": "#f6f1e7",
+      "source": "fixture/tokens.css:3"
+    },
+    {
+      "name": "surface",
+      "value": "#fffcf6",
+      "source": "fixture/tokens.css:4"
+    },
+    {
+      "name": "ink",
+      "value": "#282b27",
+      "source": "fixture/tokens.css:5"
+    },
+    {
+      "name": "muted",
+      "value": "#756b61",
+      "source": "fixture/tokens.css:6"
+    },
+    {
+      "name": "line",
+      "value": "#d6cdbf",
+      "source": "fixture/tokens.css:7"
+    },
+    {
+      "name": "accent",
+      "value": "#9d452f",
+      "source": "fixture/tokens.css:8"
+    },
+    {
+      "name": "on-accent",
+      "value": "#fffaf2",
+      "source": "fixture/tokens.css:9"
+    },
+    {
+      "name": "sage",
+      "value": "#dce2d4",
+      "source": "fixture/tokens.css:10"
+    },
+    {
+      "name": "success",
+      "value": "#3f6047",
+      "source": "fixture/tokens.css:11"
+    },
+    {
+      "name": "error",
+      "value": "#a12d2b",
+      "source": "fixture/tokens.css:12"
+    },
+    {
+      "name": "font-display",
+      "value": "Georgia,\"Songti SC\",\"STSong\",serif",
+      "source": "fixture/tokens.css:13"
+    },
+    {
+      "name": "font-body",
+      "value": "-apple-system,BlinkMacSystemFont,\"PingFang SC\",sans-serif",
+      "source": "fixture/tokens.css:14"
+    },
+    {
+      "name": "font-mono",
+      "value": "ui-monospace,SFMono-Regular,monospace",
+      "source": "fixture/tokens.css:15"
+    },
+    {
+      "name": "type-display",
+      "value": "48px",
+      "source": "fixture/tokens.css:16"
+    },
+    {
+      "name": "type-heading",
+      "value": "28px",
+      "source": "fixture/tokens.css:17"
+    },
+    {
+      "name": "type-subheading",
+      "value": "20px",
+      "source": "fixture/tokens.css:18"
+    },
+    {
+      "name": "type-body",
+      "value": "16px",
+      "source": "fixture/tokens.css:19"
+    },
+    {
+      "name": "type-caption",
+      "value": "12px",
+      "source": "fixture/tokens.css:20"
+    },
+    {
+      "name": "space-1",
+      "value": "4px",
+      "source": "fixture/tokens.css:21"
+    },
+    {
+      "name": "space-2",
+      "value": "8px",
+      "source": "fixture/tokens.css:22"
+    },
+    {
+      "name": "space-3",
+      "value": "12px",
+      "source": "fixture/tokens.css:23"
+    },
+    {
+      "name": "space-4",
+      "value": "16px",
+      "source": "fixture/tokens.css:24"
+    },
+    {
+      "name": "space-6",
+      "value": "24px",
+      "source": "fixture/tokens.css:25"
+    },
+    {
+      "name": "space-8",
+      "value": "32px",
+      "source": "fixture/tokens.css:26"
+    },
+    {
+      "name": "space-12",
+      "value": "48px",
+      "source": "fixture/tokens.css:27"
+    },
+    {
+      "name": "radius-button",
+      "value": "4px",
+      "source": "fixture/tokens.css:28"
+    },
+    {
+      "name": "radius-card",
+      "value": "8px",
+      "source": "fixture/tokens.css:29"
+    },
+    {
+      "name": "max-width",
+      "value": "1120px",
+      "source": "fixture/tokens.css:30"
+    }
+  ],
+  "drift": {
+    "value": "#776d63",
+    "source": "fixture/bookshop.css:30",
+    "role": "页脚辅助文字",
+    "canonical": "--muted (#756b61)",
+    "decision": "原始输入保留；复用示例归并到正式 muted token"
+  },
+  "input_sha256": {
+    "fixture/bookshop.css": "0e28ef889ebf343d7e1091ce9c0908f9bfca46b05b43f28c6b3615e57f9223cd",
+    "fixture/bookshop.html": "4ec82ab4607610c407e1b7bd4cc228754267c86e29ed91d99c9099c0cdea5590",
+    "fixture/package.json": "659940b4d83c17184a631a6574e9098a08f2eb74f85747278af30ff6a476affd",
+    "fixture/tokens.css": "6b666a970c60db09754876f9f34dbbcf37856dc8cb3c84a52770d7713c9c7ebe"
+  },
+  "scope": "Source-based extraction, not Stitch cloud generation; original source fixture authored for this teaching case."
+};

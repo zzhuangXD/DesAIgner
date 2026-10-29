@@ -1,0 +1,31 @@
+/* 纸间：以暖纸张和印刷墨色为中心的独立书店视觉。提取案例的原始输入。 */
+:root{
+  --paper:#f6f1e7;
+  --surface:#fffcf6;
+  --ink:#282b27;
+  --muted:#756b61;
+  --line:#d6cdbf;
+  --accent:#9d452f;
+  --on-accent:#fffaf2;
+  --sage:#dce2d4;
+  --success:#3f6047;
+  --error:#a12d2b;
+  --font-display:Georgia,"Songti SC","STSong",serif;
+  --font-body:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;
+  --font-mono:ui-monospace,SFMono-Regular,monospace;
+  --type-display:48px;
+  --type-heading:28px;
+  --type-subheading:20px;
+  --type-body:16px;
+  --type-caption:12px;
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-6:24px;
+  --space-8:32px;
+  --space-12:48px;
+  --radius-button:4px;
+  --radius-card:8px;
+  --max-width:1120px;
+}

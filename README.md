@@ -4,6 +4,8 @@
 
 **[打开在线 Demo](https://zzhuangxd.github.io/DesAIgner/)** · [实验方法与限制](experiment-report.md) · [统一内容简报](cyberpunk-brief.md)
 
+新增 **[L013–L015 独立能力案例](https://zzhuangxd.github.io/DesAIgner/capabilities/)**：报名页审查修复、素材审核工作台、源码设计系统提取。按各自适用场景制作，页面内附说明、提示词及证据；不作同题排名，详见 [本轮方法](capabilities/README.md)。
+
 同一虚构赛博朋克艺术展 **霓虹残响 / NEON AFTERIMAGE**，9 个候选仓库各选 1 个具体 Skill，分别生成可操作的网页。所有样例使用 `gpt-6.1-sol / high`；各次初始生成请求独立，不读取其他样例。
 
 | 编号 | 网页 / 实际 Skill | 上游仓库 | 角色 |
